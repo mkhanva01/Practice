@@ -59,10 +59,9 @@ public class Page_Model_Signup_Test {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 		Driver.findElement(By.id("submitAccount")).click();
 		Thread.sleep(2000);
-		
+
 		Driver.quit();
 
 	}

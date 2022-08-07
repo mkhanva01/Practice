@@ -254,14 +254,39 @@ public class Java_Class {
 		 control. So, all the member will know the status also will be able to work on the latest version of the file
 		 
 		 
-		 To install Git in local machine
+		 1. To install Git in local machine
 		 
 		 Link: https://git-scm.com/downloads
 		 in to terminal/cmd run this command:  git --version
 		 
+		 2. Google github and open up an account
+		 	Create a new repository
 		 
-		 How to install Git on Eclipse?
+		 3. How to install Git on Eclipse?
 		 On Eclipse Help> Install New Software> Egit - https://download.eclipse.org/egit/github/updates> hit on
+		 
+		 4. Clone a project using eclipse
+		 	Click on the search icon on the top right corner> Type Git Repositories> Clone a Git Repository
+		 	Paste this Path: https://github.com/mkhanva01/Practice.git> Next> Finish
+		 	
+		 	Way1~File> Import> Git > Existing Git in Local> Select Project> Finish
+		 	Way2~From Git Repositories tab> Right click on the Project> Hit import Projects> Finish
+		 
+		 
+		 
+		 ***Git commands***
+		 	
+		 	git clone: It creates a copy of an existing Git repository
+		 	git add: It moves to unstaged file/files from working directory to the staging area
+		 	git commit: It takes the staged files project history
+		 	git commit --amend: it helps to amend the commit
+		 	git push: it pushes the file to the remote repository
+		 	
+		 	git pull: It pulls the whole repository
+		 	git fetch: It fetches the changes only
+		 	git merge: merges the file from one directory to another
+		 	git rebase: it rebases the repository if there's any merge conflict for any files.
+		 
 		 
 		 
 		 Try and Catch in Java
@@ -269,8 +294,6 @@ public class Java_Class {
 		 Try: Try statement helps to define a code block to be executed in order to throw error while being executed.
 		 Catch: Catch statement allows to define a code block to be executed, it'll catch the error.
 		 **Try and Catch always comes in pairs**
-		 *
-		 *
 		 */
 		
 		
