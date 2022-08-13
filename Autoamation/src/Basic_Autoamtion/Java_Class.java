@@ -1,5 +1,7 @@
 package Basic_Autoamtion;
 
+import org.testng.reporters.jq.Model;
+
 public class Java_Class {
 
 	public static void main(String[] args) {
@@ -71,6 +73,13 @@ public class Java_Class {
 		 
 		 ~Preceding: Any element that's coming before the other											(Bottom to Top)
 		 ~Descendant: Ancestor of any element. Any element that has been descended from its ancestor. (Top to Bottom)
+		 
+		 
+		 
+		 For Css Selector
+		 Prefix (Starts-with) -- ^
+		 Substring (* middle value)
+		 Suffix ($= Ends-with)
 		*/
 		
 		
@@ -297,6 +306,23 @@ public class Java_Class {
 		 */
 		
 		
+		
+		
+		/*What is Page Factory?
+		:Page Factory gives an optimized way to implement Page Object Model. Means the memory utilization is very good and also implementation is
+		done in an object-oriented manner.
+		
+		
+		Page Factory is used to implement the POM or Instantiate Page Objects itself. Instead of having to use "FindElements"
+		we use "@FindBy" and recall the elements from the POM. It is a class that is provided by Selenium. 
+		@FindBy can accept tagName, className, CSS, XPath, id, name, PartialLinkText
+		
+		@FindBy()	-- Locate Element
+		@FindBys()	-- This works as AND operator, to meet multiple criteria 
+		@FindAll()	-- This works as OR operator, If any of the criteria is met
+		
+		While using PageFactory we've to call 'PageFactory support class' and initialize Driver with this keyword using 'initElements'
+		*/
 			}
 			
 		
