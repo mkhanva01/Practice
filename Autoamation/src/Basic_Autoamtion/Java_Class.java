@@ -286,7 +286,7 @@ public class Java_Class {
 		 	git fetch: It fetches the changes only
 		 	git merge: merges the file from one directory to another
 		 	git rebase: it rebases the repository if there's any merge conflict for any files.
-		 
+		 	
 		 
 		 
 		 Try and Catch in Java

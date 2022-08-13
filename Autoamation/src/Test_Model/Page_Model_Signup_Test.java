@@ -55,7 +55,7 @@ public class Page_Model_Signup_Test {
 		
 		File SS= ((TakesScreenshot)Driver).getScreenshotAs(OutputType.FILE);
 		try {
-			FileUtils.copyFile(SS, new File("C:\\ESD\\AutomationPracticeFrom.mp3"));
+			FileUtils.copyFile(SS, new File("C:\\ESD\\AutomationPracticeFrom.jpg"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
