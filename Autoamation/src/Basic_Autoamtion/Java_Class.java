@@ -323,6 +323,71 @@ public class Java_Class {
 		
 		While using PageFactory we've to call 'PageFactory support class' and initialize Driver with this keyword using 'initElements'
 		*/
+		
+		/*
+		What is Maven?
+		:Maven is a project management build tool which is used for Java project mostly.
+		Some of the main feature of using Maven is it allows user to gather dependencies so they can be run remotely.
+		~Dependencies are available in a separate class libraries doesn't need integrating.
+		~Dependencies gets updated every time when Maven goal is selected as Install.
+		~Maven create Test Suite of Test Suite.
+		
+		
+		
+		How to Install Maven?
+		~Go to the Link and download the Binary zip file and unzip it.
+		Link: https://maven.apache.org/download.cgi
+		
+		~Start>Type Environment> Open Edit Environment Variables> From System Variable Click 'New'
+		Variable Name: M2_HOME
+		Variable Value: Location of Maven
+		
+		From System Variable Double Click on 'Path' and Click 'New' and add this:
+		%M2_Home%\bin
+		
+		
+		~Open cmd and type:
+		 mvn --version
+		 
+		~Now On Eclipse click on 'Help from top bar'>Install New Software> and paste the link: 
+		https://download.eclipse.org/technology/m2e/releases/latest/
+		>Next>Finish
+		
+		~How to Create Maven Project in Eclipse:
+		
+		File>New>Project>Maven>Maven Project> Create a simple project>GroupID and ArtifactID> Finish> Right click 
+		Project> Properties> Workspace default JRE and hit OK.
+		
+		What is Maven Clean Install?
+		: It adds all the artifacts (dependencies) specified in pom.xml to the local repository (from remote sources)
+		
+		What is Extend?
+		: Extends is a keyword that bring another class into the current class.
+		~Sign_Up is the sub class (child) of Super Class (Parent) which is Test_Base
+		~What is the purpose of "extends" keyword? 
+		:This is called the "Inheritance method" in JAVA OOP which allows users to create a new class from an existing
+		class.
+				**We can re use our code on different test models
+				***We can re use method and attributes from one class to another.
+		
+		
+		
+		
+		~Maven-surefire-plugin is used to configure and execute tests. Here we're configuring testng.xml file.
+		~Maven-compiler-plugin is used to help compiling the code and using the particular JAVA verrsion for compilation.
+		
+		
+		
+		
+		
+		
+		 */
+		
+		
+		
+		
+		
+		
 			}
 			
 		
