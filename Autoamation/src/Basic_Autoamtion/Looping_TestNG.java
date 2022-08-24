@@ -15,13 +15,15 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
 
 
 public class Looping_TestNG {
 
 	WebDriver Driver;
 	
-	
+
 	@BeforeTest
 	public void Setup() {
 	System.setProperty("webdriver.gecko.driver", "chromedriver.exe");
@@ -79,6 +81,7 @@ public class Looping_TestNG {
 		String ActualResult= Driver.findElement(By.id("divpaxinfo")).getText();
 		String ExpectedResult= "7 Adult, 2 Child";
 		
+		
 		Assert.assertEquals(ExpectedResult, ActualResult);
 		
 		System.out.println("What is the Actual Passenger?	" + ActualResult ); //Printing Actual Passenger
@@ -103,6 +106,7 @@ public class Looping_TestNG {
 		//Executing and taking Screenshot
 		//Saving into the dest folder
 		FileUtils.copyFile(SS, new File("C:\\ESD\\Passengernumbers.png"));
+
 		
 		Driver.close();
 	}

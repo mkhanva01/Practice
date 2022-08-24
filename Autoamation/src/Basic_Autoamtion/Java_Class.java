@@ -1,6 +1,6 @@
 package Basic_Autoamtion;
 
-import org.testng.reporters.jq.Model;
+
 
 public class Java_Class {
 
@@ -172,7 +172,7 @@ public class Java_Class {
 		 **perform(): is a method to execute a chain of actions which are built using the actions build() method.
 		 
 		 
-		 What is Keys.chrod()?
+		 What is Keys.chord()?
 		 This is a method to press multiple keys simultaneously/at the same time.
 		 
 		 
@@ -361,7 +361,7 @@ public class Java_Class {
 		What is Maven Clean Install?
 		: It adds all the artifacts (dependencies) specified in pom.xml to the local repository (from remote sources)
 		
-		What is Extend?
+		What is Extends?
 		: Extends is a keyword that bring another class into the current class.
 		~Sign_Up is the sub class (child) of Super Class (Parent) which is Test_Base
 		~What is the purpose of "extends" keyword? 
@@ -384,6 +384,41 @@ public class Java_Class {
 		 */
 		
 		
+		
+		/*
+	~Method Overloading: When a class has two or more methods by the same name but different parameters. 
+		 This feature is called method overloading. 
+		 
+	~Method Overriding: When Superclass (Parent) and Subclass (Child Class) has the same name including parameters.
+		  JVM (Java Virtual Machine) calls the respective method based on the object used to call the method. 
+		  The return types should also be the same.
+		  
+	 ~JavascriptExecutor 
+	   	  This is an interface to execute Java script through the Selenium WebDriver within the selected Frame/Window. 
+		  It provides “executeScript” and “executeAsyncScript” methods.
+
+
+	  ~Driver.Navigate
+			Driver.navigate().to() it goes to a website and also it maintains the history and cookies which allows it to go forward, back
+			Driver.get does the same thing but doesn’t keep the history and cookies so it can’t go back and forth.
+			~Driver.close() vs Driver.quit()
+			Driver.close () closes the current tab, if there’s one it closes the browser.
+			Driver.quit() closes all the tabs and windows associated to the driver. Even if there’s 10 tabs opened
+
+	  ~Checked and Unchecked Exception
+			Checked Exception: During Compilation Java points these exceptions
+			Unchecked Exception: During execution Java throws these exceptions
+	  
+	  ~Handle windows
+			Window Handle is a unique identifier that holds the address of all the windows. Which helps in handling multiple windows and child windows.
+			•	get.windowhandle(): helps in getting the window handle of the current window.
+			•	get.windowhandles(): helps in getting the window handle of all the opened window.
+
+
+	   ~How to handle Authentication pop-up?
+			To handle Authentication pop-up the simple way is to pass the user and Pass before the @URL
+
+		  */
 		
 		
 		

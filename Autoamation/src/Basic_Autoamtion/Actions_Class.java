@@ -13,6 +13,13 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Actions_Class {
+	
+	/*
+	Java Access Modifier~~
+	Public: Accessible from any classes or any packages
+	Private: Accessible only from the same class
+	Protected: Accessible from the classes under same package and sublcass
+	Default: Accessible by the classes of the same package */
 
 	WebDriver Driver;
 	
