@@ -69,7 +69,6 @@ public class Actions_Class {
 		.keyUp(Email, Keys.SHIFT)
 		.doubleClick()
 		.build();
-		
 		seriesofActions.perform();
 		}
 		

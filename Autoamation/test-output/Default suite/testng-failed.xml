@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test_Model.Page_Model_Signup_Test">
+      <class name="practiceTestCases.DataProviderWithExcel_001">
         <methods>
-          <include name="Setup"/>
-          <include name="SignUppage"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="Registration_data"/>
         </methods>
-      </class> <!-- Test_Model.Page_Model_Signup_Test -->
+      </class> <!-- practiceTestCases.DataProviderWithExcel_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
